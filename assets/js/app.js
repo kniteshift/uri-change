@@ -58,7 +58,7 @@ $(function(){
 				var nogoogle = url.replace(google, source.source) + param;
 
 				if(url.indexOf(keyword) > -1) {
-					url.replace(keyword, '');
+					url = url.replace(keyword, '');
 				}
 
 				html += '<h3>'+ source.name +'</h3>' + 
